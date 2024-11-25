@@ -10,6 +10,7 @@ class ClientConfig(YAMLWizard):
     url: str
     username: str
     password: str
+    apikey: str
     https_verify: bool
 
 @dataclass(frozen=True)
